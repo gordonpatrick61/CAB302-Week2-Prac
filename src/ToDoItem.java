@@ -6,7 +6,7 @@ public class ToDoItem {
     public ToDoItem(String description)
     {
         isDone = false;
-        description = this.description;
+        this.description = description;
     }
 
     public String GetDescription()
@@ -16,7 +16,7 @@ public class ToDoItem {
 
     public void SetDescription(String description)
     {
-        description = this.description;
+        this.description = description;
     }
 
     public boolean GetIsDone()
